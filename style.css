@@ -22,10 +22,11 @@
     display: inline-flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .btn:hover {
-    background-color: hsl(28, 92%, 50%);
+    background-color: #f5780a;
 }
 
 
@@ -89,13 +90,31 @@
     font-size: 16px;
     color: #469165;
     background-color: #FFFFFF;
-    max-width: 229px;
-    padding: 8px;
+    width: 229px;
+    max-width: 230px;
+    /* height: 35px; */
+    padding: 8px 12px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* gap: 6px; */
     padding-right: 12px;
-    padding-left: 34px;
+    padding-left: 6px;
+    /* padding-top: 9px; */
     border-radius: 1000px;
     margin-bottom: 16px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
 }
+.banner-information img{
+    margin-top:3.5px ;
+    margin-left: 5px;
+    
+}
+
+
 
 .banner-container h1 {
     font-size: 72px;
@@ -301,6 +320,7 @@
     height: 384px;
     background-color: #F7F6F2;
     margin: 0 auto;
+    margin-bottom: 120px;
     display: flex;
     flex-direction: column;
     align-items: center;
