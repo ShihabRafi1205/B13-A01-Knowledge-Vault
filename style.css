@@ -326,6 +326,48 @@
     margin-bottom: 16px;
 }
 
-/* .challenge-container .p-under {
-    line-height: 20px;
-} */
+footer {
+    max-width: 1600px;
+    height: 348px;
+    background-color: #001931;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container .logo {
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.social {
+    margin-top: 120px;
+    margin-right: 120px;
+}
+
+.social p {
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.social .social-img {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+footer hr {
+    margin: 61px auto;
+    max-width: 1360px;
+
+}
+
+footer .copyright {
+    font-size: 16px;
+    color: #FAFAFA;
+    text-align: center;
+    margin-bottom: 30px;
+}
